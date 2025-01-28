@@ -1,0 +1,95 @@
+:root {
+  /* Logo */
+  --logo-color-web: #2196f3;
+  --logo-color-studioHed: #000000;
+  --logo-color-studioFoot: #ffffff;
+
+  /* Header */
+  --header-color-background: #ffffff;
+  --header-color-nav: #212121;
+  --header-color-acent: #2196f3;
+  --header-color-contact: #757575;
+
+  /* Footer */
+  --footer-color-background: #2f303a;
+  --footer-color-adres: #ffffff;
+  --footer-color-contact: rgba(255, 255, 255, 0.6);
+
+  /* MAIN PAGE */
+
+  /* Hero */
+  --hero-color-background: #2f303a;
+  --hero-color-text: #ffffff;
+  --hero-color-link: #2196f3;
+
+  /* Section */
+  --section-color-bacground: #ffffff;
+  --section-color-bacground-sekondary: #f5f4fa;
+  --section-color-title: #212121;
+  --section-color-text: #757575;
+
+  /* Shadow */
+  --shadow-1: rgba(0, 0, 0, 0.2);
+  --shadow-2: rgba(0, 0, 0, 0.14);
+  --shadow-3: rgba(0, 0, 0, 0.12);
+
+  /* PORTFOLIO PAGE */
+
+  /* Navigation */
+  --port-nav-color-link: rgba(245, 244, 250, 1);
+  --port-nav-color-link-acent: #2196f3;
+  --port-nav-color-text: #212121;
+  --port-nav-color-text-acent: #ffffff;
+
+  /* Works */
+  --port-banner-color-background: rgba(238, 238, 238, 1);
+}
+
+h1,
+h2,
+h3,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background-color: var(--header-color-background);
+}
+
+/* Container */
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  outline: 2px solid tomato;
+}
+/* List, Link */
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--section-color-title);
+}
+
+/* Title */
+.title {
+  color: var(--section-color-title);
+}
+
+.text {
+  color: var(--section-color-text);
+}

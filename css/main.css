@@ -1,0 +1,93 @@
+/* Hero */
+.hero-div {
+  background-color: var(--hero-color-background);
+}
+
+.hero-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--hero-color-text);
+  max-width: 700px;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+}
+
+.hero-link {
+  min-width: 216px;
+  padding: 10px 32px;
+  border-radius: 4px;
+  display: inline-block;
+
+  color: var(--hero-color-text);
+  background-color: var(--hero-color-link);
+}
+
+/* Advantage */
+.advantage-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.advantage-list {
+  display: flex;
+  gap: 30px;
+}
+
+.advantage-title {
+  margin-bottom: 10px;
+}
+
+/* What are we doing */
+.doing-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.doing-list {
+  padding-bottom: 94px;
+  display: flex;
+  gap: 30px;
+}
+
+/* Team */
+.team-div {
+  background-color: var(--section-color-bacground-sekondary);
+}
+.team-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+}
+
+.team-img {
+  margin-bottom: 30px;
+}
+
+.team-name-title {
+  margin-bottom: 10px;
+}
+
+.team-baner {
+  width: 270px;
+  padding-bottom: 30px;
+  text-align: center;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 3px var(--shadow-1), 0 1px 1px var(--shadow-2),
+    0 2px 1px var(--shadow-3);
+  background-color: var(--section-color-bacground);
+}
