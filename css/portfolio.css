@@ -7,6 +7,10 @@
   text-align: center;
   color: var(--port-nav-color-text);
   background-color: var(--port-nav-color-link);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .link-nav-port:hover {
@@ -22,6 +26,7 @@
 .works-nav-list {
   margin-bottom: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
 }
@@ -45,4 +50,14 @@
 }
 .works-banner-div {
   margin: 0px 24px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.banner-text {
+  font-size: 16px;
 }

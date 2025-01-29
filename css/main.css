@@ -16,6 +16,13 @@
   margin-right: auto;
   margin-bottom: 30px;
   margin-left: auto;
+  max-width: 700px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero-link {
@@ -24,6 +31,10 @@
   border-radius: 4px;
   display: inline-block;
 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--hero-color-text);
   background-color: var(--hero-color-link);
 }
@@ -36,22 +47,36 @@
 
 .advantage-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
+.advantage-block {
+  width: 270px;
+}
+
 .advantage-title {
+  font-weight: 700;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
+
+/* .advantage-text {
+} */
 
 /* What are we doing */
 .doing-title {
   text-align: center;
   margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 
 .doing-list {
   padding-bottom: 94px;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -65,12 +90,16 @@
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
   margin-bottom: 50px;
   text-align: center;
 }
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -79,6 +108,8 @@
 }
 
 .team-name-title {
+  font-weight: 500;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
